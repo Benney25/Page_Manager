@@ -1,0 +1,32 @@
+Primary function: 
+
+import a webpage\
+search the file for unique: <section id=""> ? </section>\
+capture the section IDs\
+use section ID's to populate a dropdown menu
+
+replace function:
+Delete
+
+
+Secondary function:
+1. Import a file
+2. Strip file to barebones
+3. hold stripped file for insertion
+OR
+Grab file content (grep to?) and paste into selected section ID
+
+
+
+Import Files
+Import Sections from mainpage
+Store individual Sections (in retrievable manner)
+Clean content from newcontent
+Select a section
+if section does not exist, create it
+if section exists empty the original section contents
+print new contents to section
+
+alternative option: filedata = filedata.replace('ram', 'abcd')
+
+cleanup

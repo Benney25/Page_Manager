@@ -1,0 +1,5 @@
+import beautifulsoup
+open file1
+gather section id's
+select a section
+insert 
