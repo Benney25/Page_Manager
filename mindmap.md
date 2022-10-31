@@ -84,3 +84,12 @@ https://www.freecodecamp.org/news/web-scraping-python-tutorial-how-to-scrape-dat
 functions are not variables - the problem with adding the for-loop to a function may be entirely different than what I'm trying to do.
 storing a for loop in a variable python
 https://stackoverflow.com/questions/39366134/how-to-store-values-retrieved-from-a-loop-in-different-variables-in-python
+
+
+# old script from https://www.skytowner.com/explore/extracting_attribute_values_in_beautiful_soup
+# for el in soup.find_all("section"):
+#     if el.has_attr("id"):
+#         print(el.attrs["id"])
+
+# modified to store values for later retrieval
+# https://stackoverflow.com/questions/39366134/how-to-store-values-retrieved-from-a-loop-in-different-variables-in-python

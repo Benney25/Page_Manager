@@ -12,6 +12,25 @@ Delete
 Secondary function:
 1. Import a file
 2. Strip file to barebones
+  a) strip tags
+    removetags:
+        var1 = [list of tags I don't want]
+        var2 = contents/children of tags to be removed (capture)
+        var3 = [list of tags removed]
+
+        for tags in soupy.find_all(var1)
+            tags.
+I need to loop through the list of tags I don't want to get the 
+                for x in var1:
+                    if tags == var1:
+                    var2 = tags.contents/children()
+            
+for tags in soupy.findAll(switch)
+    tags.unwrap
+
+  b) print a list of tags I don't have added yet
+  c) strip attributes
+
 3. hold stripped file for insertion
 OR
 Grab file content (grep to?) and paste into selected section ID
